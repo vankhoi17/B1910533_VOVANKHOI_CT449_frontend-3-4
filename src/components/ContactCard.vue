@@ -8,23 +8,23 @@ contact: { type: Object, required: true },
 <template>
 <div>
 <div class="p-1">
-<strong>Tên:</strong>
+<strong>Tên: Võ Văn Khởi</strong>
 {{ contact.name }}
 </div>
 <div class="p-1">
-<strong>E-mail:</strong>
+<strong>E-mail: khoib1910533@student.ctu.edu.vn</strong>
 {{ contact.email }}
 </div>
 <div class="p-1">
-<strong>Địa chỉ:</strong>
+<strong>Địa chỉ: Hoà An Phụng Hiệp Hậu Giang</strong>
 {{ contact.address }}
 </div>
 <div class="p-1">
-<strong>Điện thoại:</strong>
+<strong>Điện thoại: 0773692160</strong>
 {{ contact.phone }}
 </div>
 <div class="p-1">
-<strong>Liên hệ yêu thích:&nbsp;</strong>
+<strong>Liên hệ yêu thích: 0706723670&nbsp;</strong>
 <i v-if="contact.favorite" class="fas fa-check"></i>
 <i v-else class="fas fa-times"></i>
 </div>
